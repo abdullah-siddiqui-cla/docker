@@ -16,7 +16,7 @@ docker images
 ### Step 5: Run the Docker Container
 - Run the container from the built image
 ```
-docker run -p 3000:3000 hello-world-app
+docker run -p 3000:3000 hello-world-app .
 ```
 - Open the browser at http://localhost:3000 to see the "Hello, World!" message.
 
